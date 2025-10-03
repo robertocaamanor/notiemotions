@@ -1,0 +1,8 @@
+# Optional: Render service configuration
+services:
+  - type: web
+    name: notiemotions
+    env: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn -k uvicorn.workers.UvicornWorker -w 4 -b 0.0.0.0:$PORT api:app
