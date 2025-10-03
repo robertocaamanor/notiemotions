@@ -1,0 +1,7 @@
+requests
+beautifulsoup4
+newspaper3k
+# pysentimiento is opcional y recomendado para mejor análisis en español
+pysentimiento
+fastapi
+uvicorn
