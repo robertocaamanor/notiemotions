@@ -1,4 +1,4 @@
-Proyecto: emotions-farandula
+Proyecto: notiemotions
 
 Objetivo: hacer web scraping de noticias de farándula chilena y analizar emociones.
 

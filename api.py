@@ -20,7 +20,7 @@ class AnalyzeResponse(BaseModel):
 
 
 app = FastAPI(
-    title="emotions-farandula API",
+    title="notiemotions API",
     description="API para extraer un artículo y analizar emociones en español. Devuelve título, texto, scores y emoción dominante.",
     version="0.1",
 )
